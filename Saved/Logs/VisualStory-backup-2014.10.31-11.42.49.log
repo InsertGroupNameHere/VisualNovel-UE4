@@ -1,0 +1,162 @@
+﻿Log file open, 10/30/14 23:35:41
+LogInit:Display: Running engine for game: VisualStory
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.30-23.35.41:765][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.30-23.35.41:803][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.30-23.35.41:835][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.30-23.35.41:847][  0]LogInit: Object subsystem initialized
+[2014.10.30-23.35.41:852][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.10.30-23.35.41:852][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Unreal Engine Projects/VisualNovel/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.10.30-23.35.41:852][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.10.30-23.35.41:852][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Unreal Engine Projects/VisualNovel/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.10.30-23.35.41:853][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.30-23.35.41:853][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.30-23.35.41:873][  0]LogInit: Computer: ALEXANDRIA
+[2014.10.30-23.35.41:873][  0]LogInit: User: Master
+[2014.10.30-23.35.41:874][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.30-23.35.41:875][  0]LogInit: High frequency timer resolution =3.428034 MHz
+[2014.10.30-23.35.41:875][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=8192.0GB
+[2014.10.30-23.35.41:875][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.30-23.35.41:875][  0]LogMemory: Process Physical Memory: 63.25 MB used, 63.25 MB peak
+[2014.10.30-23.35.41:875][  0]LogMemory: Process Virtual Memory: 38.40 MB used, 38.40 MB peak
+[2014.10.30-23.35.41:875][  0]LogMemory: Physical Memory: 2874.47 MB used, 4043.52 MB total
+[2014.10.30-23.35.41:875][  0]LogMemory: Virtual Memory: 279.04 MB used, 8388608.00 MB total
+[2014.10.30-23.35.41:959][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2014.10.30-23.35.41:959][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 1765MB of shared system memory, 2 output[s]
+[2014.10.30-23.35.41:961][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.10.30-23.35.41:961][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.10.30-23.35.41:961][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.30-23.35.41:969][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.10.30-23.35.41:976][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.30-23.35.42:467][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2014.10.30-23.35.42:586][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.30-23.35.46:743][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.30-23.35.47:161][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.30-23.35.47:204][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.30-23.35.47:390][  0]LogDerivedDataCache: Loaded boot cache 0.19s 39MB C:/Users/Master/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.10.30-23.35.47:390][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Master/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.10.30-23.35.47:390][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Engine Projects/VisualNovel/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.30-23.35.47:390][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.30-23.35.47:485][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.30-23.35.47:497][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Master/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.10.30-23.35.47:960][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.30-23.35.47:960][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.30-23.35.48:196][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.30-23.35.48:198][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.30-23.35.48:370][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.30-23.35.49:776][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.30-23.35.49:972][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for D:/Unreal Engine Projects/VisualNovel/Binaries/Win64. Error: 0
+[2014.10.30-23.35.50:083][  0]SourceControl: Info Source control is disabled
+[2014.10.30-23.35.50:083][  0]SourceControl: Info Source control is disabled
+[2014.10.30-23.35.50:088][  0]SourceControl: Info Source control is disabled
+[2014.10.30-23.35.50:200][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.10.30-23.35.50:200][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.10.30-23.35.50:280][  0]LogEngine: Initializing Engine...
+[2014.10.30-23.35.50:399][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x60f)
+[2014.10.30-23.35.50:410][  0]LogInit: FAudioDevice initialized.
+[2014.10.30-23.35.50:431][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.30-23.35.50:453][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Master/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.10.30-23.35.50:460][  0]LogInit: Texture streaming: Enabled
+[2014.10.30-23.35.50:500][  0]LogInit: Transaction tracking system initialized
+[2014.10.30-23.35.50:575][  0]BlueprintLog: New page: Editor Load
+[2014.10.30-23.35.50:606][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2014.10.30-23.35.50:606][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.10.30-23.35.50:990][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.30-23.35.51:274][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.30-23.35.51:480][  0]LogConsoleResponse:Display: 
+[2014.10.30-23.35.51:675][  0]SourceControl: Info Source control is disabled
+[2014.10.30-23.35.51:675][  0]Cmd: MAP LOAD FILE="D:/Unreal Engine Projects/VisualNovel/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.30-23.35.51:699][  0]LightingResults: New page: Lighting Build
+[2014.10.30-23.35.51:707][  0]MapCheck: New page: Map Check
+[2014.10.30-23.35.51:707][  0]LightingResults: New page: Lighting Build
+[2014.10.30-23.35.51:744][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B707A0E840
+[2014.10.30-23.35.52:104][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.30-23.35.52:104][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.10.30-23.35.52:105][  0]Cmd: MAP CHECKDEP
+[2014.10.30-23.35.52:105][  0]MapCheck: New page: Example_Map - 30 Oct 2014 23:35:52
+[2014.10.30-23.35.52:174][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.991ms to complete.
+[2014.10.30-23.35.52:174][  0]LogFileHelpers: Loading map 'Example_Map' took 0.499
+[2014.10.30-23.35.52:269][  0]LogCollectionManager: Loaded 0 collections in 0.000976 seconds
+[2014.10.30-23.35.52:353][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.30-23.35.52:376][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.10.30-23.35.52:402][  0]LogLoad: Full Startup: 13.12 seconds (BP compile: 0.07 seconds)
+[2014.10.30-23.35.52:757][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2014.10.30-23.35.52:908][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2014.10.30-23.35.54:423][  5]LogAssetRegistry: Asset discovery search completed in 3.8289 seconds
+[2014.10.31-00.01.30:122][940]Cmd: MAP LOAD FILE="D:/Unreal Engine Projects/VisualNovel/Content/Maps/ZackAppartment.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.31-00.01.30:131][940]LightingResults: New page: Lighting Build
+[2014.10.31-00.01.30:188][940]LoadErrors: New page: Loading map: ZackAppartment.umap
+[2014.10.31-00.01.30:207][940]MapCheck: New page: Map Check
+[2014.10.31-00.01.30:207][940]LightingResults: New page: Lighting Build
+[2014.10.31-00.01.30:245][940]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B7027932E0
+[2014.10.31-00.01.30:939][940]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.31-00.01.30:943][940]LogAIModule: Creating AISystem for world ZackAppartment
+[2014.10.31-00.01.30:996][940]Cmd: MAP CHECKDEP
+[2014.10.31-00.01.31:004][940]MapCheck: New page: ZackAppartment - 31 Oct 2014 00:01:30
+[2014.10.31-00.01.31:106][940]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 101.958ms to complete.
+[2014.10.31-00.01.31:106][940]LogFileHelpers: Loading map 'ZackAppartment' took 0.995
+[2014.10.31-00.01.33:293][132]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.31-00.01.34:335][191]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.31-00.01.34:335][191]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.10.31-00.01.34:590][191]LogPlayLevel: PIE:  Blueprint regeneration took 256 ms (1 blueprints)
+[2014.10.31-00.01.34:591][191]PIE: New page: PIE session: ZackAppartment (31 Oct 2014 00:01:34)
+[2014.10.31-00.01.34:647][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055114s)
+[2014.10.31-00.01.34:649][191]LogPlayLevel: PIE: World Init took: (0.001270s)
+[2014.10.31-00.01.34:650][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ZackAppartment.ZackAppartment to /Game/Maps/UEDPIE_0_ZackAppartment.ZackAppartment (0.057279s)
+[2014.10.31-00.01.35:086][191]LogWorld: Game class is 'MyGame_C'
+[2014.10.31-00.01.35:109][191]LogAIModule: Creating AISystem for world ZackAppartment
+[2014.10.31-00.01.35:112][191]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ZackAppartment.ZackAppartment up for play (max tick rate 0) at 2014.10.31-00.01.35
+[2014.10.31-00.01.35:114][191]LogWorld: Bringing up level for play took: 0.004073
+[2014.10.31-00.01.35:150][191]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ZackAppartment 0.81
+[2014.10.31-00.01.52:721][951]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B704039260
+[2014.10.31-00.02.22:152][268]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GTFreeMaterials'
+[2014.10.31-00.02.25:901][611]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GTFreeMaterials/Textures'
+[2014.10.31-00.02.42:038][990]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GTFreeMaterials/Textures/Tile_Coloredtiles'
+[2014.10.31-00.02.52:942][ 13]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GTFreeMaterials/Textures/Wood_GeofwoodenPlankClean'
+[2014.10.31-00.02.54:624][161]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GTFreeMaterials/Textures/Wood_InterlockingFloor'
+[2014.10.31-00.02.56:404][321]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GTFreeMaterials/Textures/wood_JFfantasyWoodPlanksNailedClean'
+[2014.10.31-00.02.59:075][562]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GTFreeMaterials/Materials'
+[2014.10.31-00.03.12:196][456]LogTexture:Display: Building textures: Ground_GrassThickGreen_2k_alb (AutoDXT)
+[2014.10.31-00.03.15:389][456]LogTexture:Display: Building textures: Ground_GrassThickGreen_2k_g (AutoDXT)
+[2014.10.31-00.03.17:558][456]LogTexture:Display: Building textures: Ground_GrassThickGreen_2k_h1 (AutoDXT)
+[2014.10.31-00.03.18:480][456]LogTexture:Display: Building textures: Ground_GrassThickGreen_2k_n (BC5)
+[2014.10.31-00.03.19:046][456]LogMaterial: Missing cached shader map for material Ground_GrassThickGreen, compiling.
+[2014.10.31-00.03.41:106][415]LogTexture:Display: Building textures: Brick_BathStone_2k_alb (AutoDXT)
+[2014.10.31-00.03.44:492][415]LogTexture:Display: Building textures: Brick_BathStone_2k_n (BC5)
+[2014.10.31-00.03.45:083][415]LogTexture:Display: Building textures: Brick_BathStone_2k_ao (AutoDXT)
+[2014.10.31-00.03.46:616][415]LogMaterial: Missing cached shader map for material Brick_BathStone, compiling.
+[2014.10.31-00.04.05:232][777]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight_2)
+[2014.10.31-00.04.06:091][841]Cmd: DELETE
+[2014.10.31-00.04.06:091][841]Cmd: ACTOR DELETE
+[2014.10.31-00.04.06:110][841]LogEditorActor: Deleted Actor: PointLight
+[2014.10.31-00.04.06:140][841]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2014.10.31-00.04.09:238][118]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2014.10.31-00.04.09:919][173]Cmd: DELETE
+[2014.10.31-00.04.09:919][173]Cmd: ACTOR DELETE
+[2014.10.31-00.04.09:920][173]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2014.10.31-00.04.09:945][173]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2014.10.31-00.04.12:041][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ZackAppartment" FILE="D:/Unreal Engine Projects/VisualNovel/Content/Maps/ZackAppartment.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.31-00.04.12:447][337]LogSavePackage: Save=199.673630ms
+[2014.10.31-00.04.12:447][337]LogSavePackage: Moving 'D:/Unreal Engine Projects/VisualNovel/Saved/ZackAppartment06D99B8D43461690054B209291ADF04D.tmp' to 'D:/Unreal Engine Projects/VisualNovel/Content/Maps/ZackAppartment.umap'
+[2014.10.31-00.04.12:469][337]LogFileHelpers: Saving map 'ZackAppartment' took 0.762
+[2014.10.31-00.04.30:771][134]MapCheck: New page: Map Check
+[2014.10.31-00.04.30:806][134]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.31-00.04.30:807][134]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.31-00.04.30:862][134]LightingResults: New page: Lighting Build - 31 Oct 2014 00:04:30
+[2014.10.31-00.04.34:991][134]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.31-00.04.34:991][134]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.31-00.04.34:991][134]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.31-00.04.34:991][134]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.31-00.04.34:991][134]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.31-00.04.35:088][134]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.31-00.04.35:123][135]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Brick_BathStone, compiling.
+[2014.10.31-00.04.35:126][135]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Brick_BathStone, compiling.
+[2014.10.31-00.04.42:567][504]Job is a success!
