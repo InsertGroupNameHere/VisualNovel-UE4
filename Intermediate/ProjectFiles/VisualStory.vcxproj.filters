@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\VisualStory.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{DC536460-0A7C-438B-9523-C19AC12EC748}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\VisualStory.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\VisualStoryEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{DCBDB850-D7A7-482E-8543-1F0A8D1A0EE0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\VisualStory">
+			<UniqueIdentifier>{9849F6DE-42CA-4E3C-A8BE-D44C728E0439}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\VisualStory\MyActor.cpp">
+			<Filter>Source\VisualStory</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VisualStory\MyActor.h">
+			<Filter>Source\VisualStory</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\VisualStory\MyHUD.cpp">
+			<Filter>Source\VisualStory</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VisualStory\MyHUD.h">
+			<Filter>Source\VisualStory</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\VisualStory\MyPlayerCameraManager.cpp">
+			<Filter>Source\VisualStory</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VisualStory\MyPlayerCameraManager.h">
+			<Filter>Source\VisualStory</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\VisualStory\VisualStory.Build.cs">
+			<Filter>Source\VisualStory</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\VisualStory\VisualStory.cpp">
+			<Filter>Source\VisualStory</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VisualStory\VisualStory.h">
+			<Filter>Source\VisualStory</Filter>
+		</ClInclude >
+		<Filter Include="Source\VisualStory\Resources">
+			<UniqueIdentifier>{3BA140A9-A20F-402B-8BDA-5DC63FCC6D8C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\VisualStory\Resources\Windows">
+			<UniqueIdentifier>{EB533B4B-25D0-4394-88A6-685330244103}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\VisualStory\Resources\Windows\VisualStory.ico">
+			<Filter>Source\VisualStory\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\VisualStory\Resources\Windows\VisualStory.rc">
+			<Filter>Source\VisualStory\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
